@@ -1,0 +1,33 @@
+
+# Minimal Requirements for Malaysian English Transcription POC
+# Start with these core packages first
+
+# Core ML/AI Libraries
+torch>=1.13.0
+transformers>=4.21.0
+openai-whisper>=20231117
+sentence-transformers>=2.2.2
+
+# Audio Processing
+librosa>=0.9.0
+soundfile>=0.12.1
+
+# Web Framework & Dashboard
+streamlit>=1.25.0
+plotly>=5.0.0
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Vector Database (CPU version for compatibility)
+faiss-cpu>=1.7.0
+
+# Utilities
+tqdm>=4.60.0
+
+# Development and Testing
+pytest>=7.4.0
+jupyter>=1.0.0
+
+# Optional: For better audio support
+pyaudio>=0.2.11  # Uncomment if needed for microphone input
+ffmpeg-python>=0.2.0  # Uncomment for additional audio format support
